@@ -1,34 +1,9 @@
-<!DOCTYPE html>
+git clone https://github.com/ThaliaBerry/thaliaberryy.github.io
+cd thaliaberryy.github.io
 
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta charset="utf-8" />
-    <title>Thalia's Personal Website'</title>
-    <link rel="stylesheet" href="StyleSheet2.css"/>
-</head>
-<body>
-    <h1>Thalia's Personal Website</h1>
-    <nav>
-        <ul>
-            <li>
-                <a href="About.html">About Me</a>
-            </li>
-            <li>
-                <a href="Projects.html">Projects</a>
-            </li>
-            <li>
-                <a href="SkillSets.html">Skill Sets</a>
-            </li>
-        </ul>
-    </nav>
-    <div id="Main">
-        <div id="Bio">
-            <h2>Bio</h2>
-            <h4>Thalia Berry</h4>
-            <h5>Student</h5>
-            <p>Junior</p>
-        </div>
-    </div>
-    
-</body>
-</html>
+echo "Hello World" > index.html
+git add --all
+
+git commit -m "Initial commit"
+
+git push -u origin main
